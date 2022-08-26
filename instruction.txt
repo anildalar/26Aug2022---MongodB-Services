@@ -1,0 +1,26 @@
+How to start/stop the mongodb service in windows 10 ?
+
+1. MongoDB Server
+2. GUI 
+			2.1 MongoDB Compass
+			2.2 Studio3T
+							https://studio3t.com/
+
+I am able to connect and see the mongodb databases
+That means mongodb service is running in background
+
+
+Window+R
+
+services.msc
+
+You will have 2 Ways to run mongodb Server
+1. With Service (Automatically run)
+2. With Terminal
+
+
+windows + R
+
+cmd
+
+C:\Program Files\MongoDB\Server\6.0\bin>mongod.exe --dbpath="c:\data\db"
